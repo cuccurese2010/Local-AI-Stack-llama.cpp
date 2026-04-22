@@ -68,5 +68,3 @@ Note: The interface is served over HTTPS via the NGINX proxy. You may need to ac
 The Local AI Stack is pre-configured to communicate with the Stable Diffusion Stack using the host.docker.internal gateway.
 
 Image API: http://host.docker.internal:7860/sdapi/v1
-
-LLM API: Ensure your llama.cpp is running on the host at port 8080.
