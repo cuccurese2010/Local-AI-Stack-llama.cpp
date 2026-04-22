@@ -31,11 +31,11 @@ First, you must set up the image generation engine. Clone and deploy the reposit
 git clone https://github.com/cuccurese2010/stable-diffusion-xl-docker-setup.git
 cd stable-diffusion-xl-docker-setup
 docker compose --profile download up --build
-# wait until its done, then:
+wait until its done, then:
 docker compose --profile auto up --build
-# Web address
+Web address
 http://localhost:7860
-# Stable Diffusion Settings
+Stable Diffusion Settings
 Txt2img
 Sampling steps=35
 Hires fix=512x512
