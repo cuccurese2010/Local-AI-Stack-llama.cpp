@@ -46,10 +46,13 @@ docker compose --profile auto down
 
 2. Install llama.cpp (Backend)
 Getting Started Clone this repository:
+
 git clone https://github.com/your-username/llama-cpp-docker.git cd llama-cpp-docker
 Start the stack:
+
 docker compose up -d
 Monitor the Download: docker compose logs -f llamacpp-llama-cpp-1
+
 Web address http://localhost:8080/  
 
 4. Install Local AI Stack (Frontend & Services)
