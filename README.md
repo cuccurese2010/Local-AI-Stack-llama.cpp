@@ -26,7 +26,7 @@ A running instance of Stable Diffusion (Automatic1111) on port 7860 with the --a
 
 🛠️ Installation & Setup
 To get the full ecosystem running, you need to deploy two separate projects: the Stable Diffusion Backend, LocalAIStack-llama.cpp and llama-cpp.
-1. Install Stable Diffusion (Backend)
+# 1. Install Stable Diffusion (Backend)
 First, you must set up the image generation engine. Clone and deploy the repository specifically configured for SDXL:
 git clone https://github.com/cuccurese2010/stable-diffusion-xl-docker-setup.git
 
@@ -59,7 +59,7 @@ Shutdown the container:
 docker compose --profile auto down
 
 
-2. Install llama.cpp (Backend)
+# 2. Install llama.cpp (Backend)
 
 Getting Started Clone this repository:
 
@@ -79,7 +79,7 @@ Web address http://localhost:8080/
 
 
 
-4. Install Local AI Stack (Frontend & Services)
+# 3. Install Local AI Stack (Frontend & Services)
 
 Now, clone and deploy this project to set up Open WebUI, Kokoro TTS, and SearXNG:
 
